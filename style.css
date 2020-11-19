@@ -1,10 +1,59 @@
-a {
+div {
+    padding: 1%;
+}
+
+h1 {
+    font-family:'Big Shoulders Stencil Text', cursive
+}
+
+footer {
+    position: absolute;
+    bottom : 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
     text-decoration: none;
 }
 
+
 img {
-    width: 300px;
+    width:300px;
+    grid-column: 1;
 }
+
+.aboutGrid {
+   border: black;
+    display: grid;
+    grid-template-columns : repeat(3, 1fr);
+    grid-template-rows : repeat(1fr 2fr 1fr 1fr);
+    padding: 2%;
+}
+.aboutGrid > * {
+    margin: 5px;
+}
+
+.aboutme {
+    /* border: 1px solid black; */
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+fieldset {
+border: 1px solid black;
+grid-template-columns: 1fr 2fr 3fr 2fr;
+}
+form {
+    grid-column: 3;
+}
+
+
+
+
+
 
 
 
