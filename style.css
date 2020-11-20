@@ -1,6 +1,7 @@
 
 h1 {
-    font-family:'Big Shoulders Stencil Text', cursive
+    font-family:'Big Shoulders Stencil Text', cursive;
+    text-align: center;
 }
 
 footer {
@@ -22,12 +23,14 @@ footer {
 img {
     width:300px;
     grid-column: 1;
+    padding: 5%;
+    margin: 1%;
 }
 
 .aboutGrid {
    border: black;
     display: grid;
-    grid-template-columns : 2fr 2fr 3fr;
+    grid-template-columns : 4fr 4fr 5fr 3fr;
     padding: 5%;
 }
 button {
