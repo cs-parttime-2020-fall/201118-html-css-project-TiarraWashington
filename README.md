@@ -1,5 +1,7 @@
 # 20 11 18 HTML CSS Project
 
+## Scored : https://docs.google.com/document/d/183EGPtvQLdfGR1YHCXOAJA0-ivUA4DiWW089VSLcAyw/edit?usp=sharing
+
 ## Project Description
 This individual project is a chance for you to create and deploy a website of your own design! The project site is a simplified portfolio with a page about yourself and your interest in technology and a contact form page to reach out. For now the contact form functionality is simply demonstrative but true functionality can be added later on. A short video walking through an example of the project site is included in the resources section below. The purpose of this assignment is not to recreate the example project, but to use your skills, creativity, and personal taste to meet the requirements in a unique way. You will give a 5-10 minute presentation on Thursday 11/19 at 7:45 PM walking the class through your final site and speaking to one thing that you found difficult and one thing that you especially like about your site. Following presentations the class will walk through the steps to host the site using [github pages](https://pages.github.com/). Your project will be graded using the rubric listed in the resources section below. You will be graded on the final site, the organization and effectiveness of your code, your presentation, and your success with deploying the site.
 
