@@ -35,4 +35,4 @@ Suggested bootstrap components
 - [Project Example](https://youtu.be/fwX0jdbybKU)
 - [Bootstrap Components](https://getbootstrap.com/docs/4.5/components)
 - [Concept Documentation](https://github.com/cs-parttime-2020-fall/part-time-program-syllabus/blob/master/htmlCSS.md)
-
+https://github.com/cs-parttime-2020-fall/201118-html-css-project-TiarraWashington/deployments/activity_log?environment=github-pages
