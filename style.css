@@ -1,6 +1,3 @@
-div {
-    padding: 1%;
-}
 
 h1 {
     font-family:'Big Shoulders Stencil Text', cursive
@@ -8,9 +5,12 @@ h1 {
 
 footer {
     position: absolute;
-    bottom : 0;
+    bottom : 0px;
     color: white;
     width: 100%;
+    text-align: center;
+}
+#FooterText {
     text-align: center;
 }
 
@@ -18,7 +18,6 @@ footer {
     color: white;
     text-decoration: none;
 }
-
 
 img {
     width:300px;
@@ -28,29 +27,27 @@ img {
 .aboutGrid {
    border: black;
     display: grid;
-    grid-template-columns : repeat(3, 1fr);
-    grid-template-rows : repeat(1fr 2fr 1fr 1fr);
+    grid-template-columns : 2fr 2fr 3fr;
+    padding: 5%;
+}
+button {
+    margin: 3%;
+}
+.aboutGrid,button > * {
+    margin: 2px;
+}
+
+
+.gridContainer {
+    /* border: 1px solid black; */
+    display:grid;
+    grid-template-columns: 1fr 3fr;
     padding: 2%;
 }
-.aboutGrid > * {
-    margin: 5px;
-}
 
-.aboutme {
-    /* border: 1px solid black; */
-    grid-column: 2/4;
-    grid-row: 2;
+.gridContainer > * {
+    margin: 1px;
 }
-
-fieldset {
-border: 1px solid black;
-grid-template-columns: 1fr 2fr 3fr 2fr;
-}
-form {
-    grid-column: 3;
-}
-
-
 
 
 
