@@ -5,10 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
+    <ul class="nav bg-dark">
+        <li class="nav-item">
+          <a class="nav-link active" href="./index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.parchment.com/u/award/30c808eb2bdf11a7f0d0fc4d019591bb" target="_blank">Parchment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.code-crew.org/" target="_blank">CodeSchool</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./projects.html">Projects</a>
+        </li>
+      </ul>
+    
     <h1>Projects</h1>
+
     <div>
         <h4>To Do List</h4>
         </div>
@@ -17,12 +37,12 @@
         <h5>Urgent and non-urgent tasklist</h5>
         </div>
 
-        <p>Use grid display to layout three distinct elements : a form to add tasks, an element to display urgent tasks,
+        <p class="Project Description">      Use grid display to layout three distinct elements : a form to add tasks, an element to display urgent tasks,
             and an element to display non-urgent tasks. The form should have a text field for the task description, a
             selection field to choose "urgent" or "non-urgent", and a date field to set a task due date. Use bootstrap
-            styling throughout your page.
+            styling throughout your page. </p>
 
-            When a task is added via the form the description and due date should be added to the appropriate element
+           <p>    When a task is added via the form the description and due date should be added to the appropriate element
             depending on if you chose "urgent" or "non-urgent" from the selection field. The form fields should also
             clear out when the form is submitted. When a task is displayed in either element displaying tasks is clicked
             a dialog box should appear asking you to confirm if you want to remove the clicked task. If you choose "ok"
@@ -31,12 +51,12 @@
 
     <div>
         <a href="https://cs-parttime-2020-fall.github.io/210120-project-one-TiarraWashington/" target="_blank">
-            <button>View This Site</button>
+            <button class="btn btn-success">View This Site</button>
         </a>
 
         <a href="https://github.com/cs-parttime-2020-fall/210120-project-one-TiarraWashington/blob/main/README.md"
             target="_blank">
-            <button>View The GitHub Repository</button>
+            <button class="btn btn-primary">View The GitHub Repository</button>
         </a>
     </div>
 
@@ -47,15 +67,18 @@
         <h5>Restart Game when either player reaches 10</h5>
         </div>
 
-        <p></p>
+        <p class="Project Description">     Use grid display to layout three distinct elements : an element to display player one's score and a button to update  player one's score, an element to display player two's score and a button to update player two's score, and an element to display the player currently in the lead based on each player's score. Use bootstrap styling throughout your page.
+
+            When a button is clicked in either player element the score of that element should increase by one. The player listed in the lead should change as one player's score is higher than the other. If players have the same score "TIE" should be displayed in place of a player name. When either player reaches the number 10 the player in the lead should be alerted in the browsers and scores should clear, restarting the game. </p>
+
 
         <div>
             <a href="https://cs-parttime-2020-fall.github.io/210126-project-two-TiarraWashington/">
-                <button>View This Site</button>
+                <button class="btn btn-success">View This Site</button>
             </a>
 
             <a href="https://github.com/cs-parttime-2020-fall/210126-project-two-TiarraWashington/blob/main/README.md">
-                <button>View The GitHub Repository</button>
+                <button class="btn btn-primary">View The GitHub Repository</button>
             </a>
         </div>
 

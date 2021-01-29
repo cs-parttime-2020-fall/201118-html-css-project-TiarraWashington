@@ -1,5 +1,5 @@
 
-h1 {
+h1, h4, h5, h6 {
     font-family:'Big Shoulders Stencil Text', cursive;
     text-align: center;
 }
@@ -52,8 +52,10 @@ button {
     margin: 1px;
 }
 
-
-
+p {
+    padding: 2%;
+    
+}
 
 
 
